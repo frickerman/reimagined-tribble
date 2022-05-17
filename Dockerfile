@@ -1,5 +1,5 @@
 
-ROM golang:alpine
+FROM golang:alpine
 WORKDIR /go/src/github.com/vivanti/hello-app
 ADD . /go/src/github.com/vivanti/hello-app
 RUN pwd
